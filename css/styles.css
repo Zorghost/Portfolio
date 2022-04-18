@@ -568,7 +568,7 @@ h3.my-profession
     width: 100%;
     display: block;
 }
-
+/* Accomplishments Start */
 body {background:#ccc}
 
 .box h3{
@@ -581,6 +581,7 @@ body {background:#ccc}
   height:300px;
   background:#FFF;
   margin:40px auto;
+  vertical-align:top;
 }
 .effect8
 {
@@ -614,6 +615,42 @@ body {background:#ccc}
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
 }
+.effect8
+{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    
+}
+.effect8 .title
+{
+margin-top: 15px;
+margin-left: -350px;
+vertical-align: top;
+}
+.effect8 .tryhackme
+{
+    margin-top: 70px;
+    margin-left: -600px;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+}
+.effect8 .tryhackme > * {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+.effect8 .tryhackme .img 
+{
+    z-index: 1;
+}
+.effect8 .tryhackme .paths
+{
+    z-index: 1;
+    margin-left: 600px;
+}
+
+/* Accomplishments End */
 @media (max-width:1199px)
 {
     .aside
