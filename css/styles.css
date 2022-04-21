@@ -624,17 +624,21 @@ body {background:#ccc}
 }
 .effect8 .title
 {
-margin-top: 15px;
-margin-left: -350px;
-vertical-align: top;
+    margin-top: 10px;
+    width: auto;
+    position: absolute;
 }
 .effect8 .tryhackme
 {
-    margin-top: 70px;
-    margin-left: -600px;
+    margin-top: 120px;
+    margin-left: -300px;
     display: grid;
     grid-template: 1fr / 1fr;
     place-items: center;
+}
+.effect8 .img2 
+{
+    margin-left: 100px;
 }
 .effect8 .tryhackme > * {
     grid-column: 1 / 1;
@@ -643,6 +647,7 @@ vertical-align: top;
 .effect8 .tryhackme .img 
 {
     z-index: 1;
+    
 }
 .effect8 .tryhackme .paths
 {
